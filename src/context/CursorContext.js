@@ -50,7 +50,7 @@ const CursorProvider = ({ children }) => {
     none: {
       width: 0,
       height: 0,
-      backgroundColor: 'rgba(255,255,255, 1)'
+      backgroundColor: 'rgba(255,255,255, 0)'
     }
   }
 
