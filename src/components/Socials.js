@@ -10,7 +10,7 @@ const Socials = () => {
   <div 
     onMouseEnter={mouseEnterHandler}
     onMouseLeave={mouseLeaveHandler}
-    className='hidden xl:flex'>
+    className='xl:flex'>
     <ul className='flex gap-x-3'>
       <li><a href='https://www.instagram.com/oscar_iamart' target='_blank' rel='noreferrer'><ImInstagram style={{ color: '#99736c' }} /></a></li>
       <li><a href='https://www.facebook.com/osebeloane' target='_blank' rel='noreferrer'><ImFacebook style={{ color: '#99736c' }} /></a></li>

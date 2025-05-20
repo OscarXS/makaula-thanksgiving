@@ -14,18 +14,18 @@ import Loader from '../components/Loader';
 
 const Home = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    // Simulate loading delay
-    const timeout = setTimeout(() => {
-      setLoading(false);
-    }, 2000); // 2 seconds
+  // useEffect(() => {
+  //   // Simulate loading delay
+  //   const timeout = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2000); // 2 seconds
 
-    return () => clearTimeout(timeout);
-  }, []);
+  //   return () => clearTimeout(timeout);
+  // }, []);
 
-  if (loading) return <Loader />;
+  // if (loading) return <Loader />;
 
   return (
     <motion.section 
