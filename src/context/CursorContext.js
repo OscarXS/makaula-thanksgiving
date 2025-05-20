@@ -12,7 +12,7 @@ const CursorProvider = ({ children }) => {
   // cursor bg state
   const [cursorBG, setCursorBG] = useState('default')
 
-  const mobileViewportIsActive = window.innerWidth < 768;
+  const mobileViewportIsActive = window.innerWidth < 780;
   
   useEffect(()=> {
     if(!mobileViewportIsActive) {
